@@ -18,7 +18,7 @@
               <h1 data-aos="fade-left" class="mb-2 bg-gradient-to-b from-amber-50 to-purple-500 bg-clip-text text-2xl font-bold text-transparent sm:mb-4 sm:text-5xl sm:leading-tight ">WebDeveloper Roadmaps</h1>
             </div>
             <div class="flex justify-center">
-              <p class="text-white text-2x1">roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide developers in picking up a path and guide their learnings.</p>
+              <p class="text-white text-2x1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, distinctio tempora laudantium earum provident accusamus alias qui, aliquid perferendis accusantium deserunt. Vel numquam dolorum, officia aperiam eaque voluptatem repellendus ea? .</p>
             </div>
         </div>
     </div>
@@ -42,15 +42,16 @@
           </a>
         </div>
       </div>
-      {{-- Foto --}}
 
+      {{-- Foto --}}
       <div id="Foto" class="">
         <div class="flex justify-center py-[2rem]">
-          <h1 class="font-bold text-white :">Title</h1>
+          <h1 class="font-bold text-white :">Tools :</h1>
         </div>
-        <div class="grid grid-cols-4 grid-rows-1 gap-[3rem] py-[3rem] px-8">
+        <div class="grid grid-cols-4 grid-rows-1 gap-[3rem] py-[1rem] px-8">
           <div class="border-2">
-            <img class="object-cover" src="" alt="foto-1">
+            <img class="" src="" alt="foto-1">
+
           </div>
           <div class="border-2 h-[16rem] rounded-md">
             <img class="object-cover" src="" alt="foto-2">
@@ -63,9 +64,133 @@
           </div>
         </div>
       </div>
-       
+        {{-- Guides --}}
+        <div class="bg-white " id='Container'>
+          <div id="Guide-Container" class=" flex justify-center pt-[2rem]"> 
+              <div id="title" class="">
+                  <h1 class="text-2xl font-bold">Guides :</h1>
+              </div>
+            </div>
 
-  
+            <div id="tabel-container" class="flex justify-center">
+                <div class="grid grid-cols-1 grid-rows-7 gap-4 w-[80%]" id="tabel">
+
+                  <a href="">
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">1.</h1>
+                      <p class="">last</p>
+                    </div>
+                  </a>
+
+                  <a href="">
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">2.</h1>
+                      <p clas=""></p>
+                    </div>
+                  </a>
+
+                  <a href="" >
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">3.</h1>
+                      <p class=""></p>
+                    </div>
+                  </a>
+
+                  <a href="" >
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">4.</h1>
+                      <p class=""></p>
+                    </div>
+                  </a>
+
+                  <a href="" >
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">5.</h1>
+                      <p class=""></p>
+                    </div>
+                  </a>
+
+                  <a href="">
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">6.</h1>
+                      <p class=""></p>
+                    </div>
+                  </a>
+
+                  <a href="" >
+                    <div class="flex border-b-2 justify-between">
+                      <h1 class="">7.</h1>
+                      <p class=""></p>
+                    </div>
+                  </a>
+
+                </div>
+            </div>
+
+            {{-- Video --}}
+            <div class="flex justify-center pt-[2rem]" id="container-video">
+              <div id="title" class="">
+                <h1 class="font-bold text-2xl">Video :</h1>
+              </div>
+            </div>
+
+            <div id="tabel" class="flex justify-center">
+              <div class="grid grid-cols-1 grid-rows-7 gap-4 w-[80%]">
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">1. Lorem</h1>
+                      <p class=""> Last</p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">2.</h1>
+                      <p class=""></p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">3.</h1>
+                      <p class=""></p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">4.</h1>
+                      <p class=""></p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">5.</h1>
+                      <p class=""></p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">6.</h1>
+                      <p class=""></p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="flex justify-between border-b-2">
+                      <h1 class="">7.</h1>
+                      <p class=""></p>
+                    </div>
+                </a>
+
+              </div>
+            </div>
+
+        </div>
+        {{-- Mulai Bg-Hitam --}}
     </div>
 </body>
 </html>
