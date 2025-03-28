@@ -25,17 +25,17 @@
       {{-- Main  --}}
       <div id="main"class="items-center flex justify-center">
         <div id="tabel" class="grid grid-cols-3 grid-rows-1 gap-[3rem]">
-          <a href="#">
+          <a href="/frontend">
               <div class="border-2 flex items-center justify-start h-[3rem] w-[13rem] rounded-md hover:border-blue-50 duration-[0.3s]">
                 <h1 class="text-white">Frontend</h1>
               </div>
           </a>
-          <a href="#">
+          <a href="/backend">
               <div class=" border-2 flex items-center justify-start h-[3rem] w-[13rem] rounded-md hover:border-blue-50 duration-[0.3s]">
                 <h1 class="text-white">Backend</h1>
               </div>
           </a>
-          <a href="#">
+          <a href="/fullstack">
               <div class="border-2 hover:border-blue-50 flex items-center justify-start h-[3rem] w-[13rem] rounded-md duration-[0.3s]">
                 <h1 class="text-white">Full Stack</h1>
               </div>
@@ -216,7 +216,7 @@
                           <p class="font-light">GitHub Star</p>
                         </div>
       
-                        <div class="flex justify-center items-center">
+                        <div class="flex justify-center items-center hover:bg-slate-800 duration-[1s] rounded-lg hover:text-white">
                           <div class="border-2 w-[13vw] h-[7vh] rounded-lg flex flex-col justify-center items-center">
                             <h1 class="font-bold">Star us on GitHub</h1>
                             <p class="font-light">Help you reach #1</p>
@@ -242,7 +242,7 @@
                           <p class="font-light">Register User</p>
                         </div>
 
-                        <div class="flex justify-center items-center">
+                        <div class="flex justify-center items-center hover:bg-slate-800 duration-[1s] rounded-lg hover:text-white">
                           <div class="border-2 w-[13vw] h-[7vh] rounded-lg flex flex-col justify-center items-center">
                             <h1 class="font-bold">Register yourself</h1>
                             <p class="font-light">Commit to your growth </p>
@@ -270,10 +270,10 @@
                           <p class="font-light">Discord Member</p>
                         </div>
 
-                        <div class="flex justify-center items-center">
-                          <div class="border-2 w-[13vw] h-[7vh] rounded-lg flex flex-col justify-center items-center ">
-                            <h1 class="font-bold">Join On Discord</h1>
-                            <p class="font-light">join the comunity</p>
+                        <div class="flex justify-center items-center hover:bg-slate-800 duration-[1s] rounded-lg hover:text-white ">
+                          <div class="border-2 w-[13vw] h-[7vh] rounded-lg flex flex-col justify-center items-center">
+                            <h1 class="font-bold ">Join On Discord</h1>
+                            <p class="font-light ">join the comunity</p>
                           </div>
 
                       </div>
