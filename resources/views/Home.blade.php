@@ -65,7 +65,7 @@
         </div>
       </div>
         {{-- Guides --}}
-        <div class="bg-white " id='Container'>
+        <div class="bg-white " id='container-guides'>
           <div id="Guide-Container" class=" flex justify-center pt-[2rem]"> 
               <div id="title" class="">
                   <h1 class="text-2xl font-bold">Guides :</h1>
@@ -255,7 +255,7 @@
                 </div>
 
                 <div class="border-r-1">
-                  <div class="flex justify-center items-center">
+                  <div class="flex justify-center items-center pb-[1rem]">
                     <div>
                         <div title="join the comunity">
                           <p class="text-blue-500">+2k every month</p>
@@ -271,7 +271,7 @@
                         </div>
 
                         <div class="flex justify-center items-center">
-                          <div class="border-2 w-[13vw] h-[7vh] rounded-lg flex flex-col justify-center items-center">
+                          <div class="border-2 w-[13vw] h-[7vh] rounded-lg flex flex-col justify-center items-center ">
                             <h1 class="font-bold">Join On Discord</h1>
                             <p class="font-light">join the comunity</p>
                           </div>
@@ -292,9 +292,37 @@
         <footer>
           <div class="bg-slate-900 h-[30vh] w-screen">
             <div id="footer-container">
-              <div class="flex justify-center items-center">
-                <h1 class="text-white">Ini footer</h1>
+              <div class="flex justify-center items-center gap-x-10">
+                <a href="#header">
+                    <h1 class="font-bold text-slate-400 hover:text-white duration-[0.3s]">Roadmaps</h1>
+                </a>
+                <a href="#container-guides">
+                  <h1 class="font-bold text-slate-400 hover:text-white duration-[0.3s]">Guides</h1>
+                </a>
+                <a href="#container-video">
+                  <h1 class="font-bold text-slate-400 hover:text-white duration-[0.3s]">Videos</h1>
+                </a>
+
+                <a href="">
+                  <h1 class="font-bold text-slate-400 hover:text-white duration-[0.3s]">Creator</h1>
+                </a>
               </div>
+
+              <div class="flex justify-center items-center">
+                <div class="grid grid-cols-2 grid-rows-1 gap-4">
+
+                  <div class="flex flex-col justify-center items-center">
+                    <h1 class="font-bold text-white">WebDev by <span class="bg-sky-600 rounded-sm text-white">Kelompok Diki</span></h1>
+                    {{-- Gaktau isi apa  --}}
+                  </div>
+
+                  <div class="flex flex-col justify-center items-center">
+                    <h1 class="font-bold text-white">The New WebDev</h1>
+                    {{-- Gak tau Isi apa  --}}
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </footer>
