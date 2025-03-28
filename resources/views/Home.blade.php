@@ -13,6 +13,7 @@
 
   <div class="bg-slate-900 h-screen w-screen">
     <div id="header" class="py-[4rem]">
+      <x-navbar />
         <div class="border-b-2 h-[10rem]">
             <div class="flex justify-center ">
               <h1 data-aos="fade-left" class="mb-2 bg-gradient-to-b from-amber-50 to-purple-500 bg-clip-text text-2xl font-bold text-transparent sm:mb-4 sm:text-5xl sm:leading-tight ">WebDeveloper Roadmaps</h1>
