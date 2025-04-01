@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () {
-    return view('Home');
-});
+Route::get("/", [HomeController::class,'index']);
 
 Route::get('/frontend', function(){
     return view('FrontEnd');
@@ -17,3 +16,4 @@ Route::get('/backend', function(){
 Route::get('/fullstack', function(){
     return view('FullStack');
 });
+

@@ -1,0 +1,22 @@
+<?php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class HomeController extends Controller
+{
+    public function index()
+    {
+        $videos = [
+            ["title" => "Video 1", "description" => "Deskripsi video 1"],
+            ["title" => "Video 2", "description" => "Deskripsi video 2"],
+        ];
+
+        $guides = [
+            ["title" => "Guide 1", "description" => "Deskripsi guide 1"],
+            ["title" => "Guide 2", "description" => "Deskripsi guide 2"],
+        ];
+
+        return view('home', compact('videos', 'guides'));
+    }
+}
