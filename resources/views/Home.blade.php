@@ -76,7 +76,7 @@
           <div id="tabel-container" class="flex justify-center">
               <div class="grid grid-cols-1 grid-rows-7 gap-4 w-[80%]" id="tabel">
                   @foreach ($guides as $item)
-                      <x-guides-card :title="$item['title']" :description="$item['description']" />
+                      <x-guides-card :title="$item['title']" :description="$item['description']" :link="$item['link']" />
                   @endforeach
               </div>
           </div>
@@ -91,7 +91,7 @@
           <div id="tabel" class="flex justify-center border-b-2 pb-[2rem]">
               <div class="grid grid-cols-1 grid-rows-7 gap-4 w-[80%]">
                     @foreach ($videos as $video)
-                      <x-video-card :title="$video['title']" :description="$video['description']" />
+                      <x-video-card :title="$video['title']" :description="$video['description']" :link="$video['link']" />
                     @endforeach
               </div>
           </div>
