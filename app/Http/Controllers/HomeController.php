@@ -17,6 +17,10 @@ class HomeController extends Controller
             ["title" => "Guide 2", "description" => "Deskripsi guide 2" , "link" => "#"],
         ];
 
-        return view('home', compact('videos', 'guides'));
+        $foto = [
+            ["foto" => asset('asset/2.jpg')],
+        ];
+
+        return view('home', compact('videos', 'guides', 'foto'));
     }
 }
