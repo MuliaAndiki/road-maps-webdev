@@ -13,8 +13,8 @@ class HomeController extends Controller
         ];
 
         $guides = [
-            ["title" => "Guide 1", "description" => "Deskripsi guide 1" , "link" => "#"],
-            ["title" => "Guide 2", "description" => "Deskripsi guide 2" , "link" => "#"],
+            ["title" => "Guide 1", "description" => "Deskripsi guide 1", "link" => "#"],
+            ["title" => "Guide 2", "description" => "Deskripsi guide 2", "link" => "#"],
         ];
 
         $foto = [
