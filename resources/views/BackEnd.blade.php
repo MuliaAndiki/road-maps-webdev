@@ -14,6 +14,11 @@
   <div class="h-[100vh] w-[100vw] bg-slate-900">
     <x-navbar />
     <x-title :judul="$judul['judul']" :deskripsi="$judul['deskripsi']" :paragraf="$judul['paragraf']" />
+    <div class="w-screen h-screen bg-white" title="Konten">
+      <!-- Konten -->
+    </div>
+    <x-comunnity />
+    <x-footer />
   </div>
 </body>
 
