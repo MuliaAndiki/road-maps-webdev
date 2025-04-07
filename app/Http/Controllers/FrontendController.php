@@ -14,6 +14,10 @@ class FrontendController extends Controller
       "paragraf" => "FrontEnd"
     ];
 
-    return view("frontend", compact('judul'));
+    $href = [
+      ["downloads" => "#"],
+
+    ];
+    return view("frontend", compact('judul', 'href'));
   }
 }

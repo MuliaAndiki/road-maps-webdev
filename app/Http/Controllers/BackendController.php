@@ -14,6 +14,10 @@ class BackendController extends Controller
       "paragraf" => "BackEnd"
     ];
 
-    return view("backend", compact('judul'));
+    $href = [
+      ["downloads" => "#"],
+    ];
+
+    return view("backend", compact('judul', 'href'));
   }
 }

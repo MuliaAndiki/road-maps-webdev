@@ -12,8 +12,12 @@ class FullstackController extends Controller
       "judul" => "FullStack",
       "deskripsi" => "Step by step guide to becoming a modern fullstack developer in 2025",
       "paragraf" => "fullstack"
+
     ];
 
-    return view("FullStack", compact('judul'));
+    $href = [
+      ["downloads" => "#"],
+    ];
+    return view("FullStack", compact('judul', 'href'));
   }
 }
