@@ -16,8 +16,12 @@ class FrontendController extends Controller
 
     $href = [
       ["downloads" => "#"],
-
     ];
-    return view("frontend", compact('judul', 'href'));
+
+    $share = [
+      ["share" => "/login"]
+    ];
+
+    return view("frontend", compact('judul', 'href', 'share'));
   }
 }

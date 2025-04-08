@@ -14,9 +14,9 @@
   <div class="h-[100vh] w-[100vw] bg-slate-900">
     <x-navbar />
     <x-title :judul="$judul['judul']" :deskripsi="$judul['deskripsi']" :paragraf="$judul['paragraf']"
-      :href="$href[0]['downloads']" />
+      :href="$href[0]['downloads']" :share="$share[0]['share']" />
     <div class="h-screen w-screen bg-white" title="Konten">
-      <!-- Konten -->
+      <x-konten />
     </div>
     <x-comunnity />
     <x-footer />

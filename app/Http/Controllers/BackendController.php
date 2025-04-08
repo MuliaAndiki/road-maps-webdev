@@ -15,9 +15,12 @@ class BackendController extends Controller
     ];
 
     $href = [
-      ["downloads" => "#"],
+      ["downloads" => "#", "share" => "#"],
     ];
 
-    return view("backend", compact('judul', 'href'));
+    $share = [
+      ["share" => "#"]
+    ];
+    return view("backend", compact('judul', 'href', 'share'));
   }
 }

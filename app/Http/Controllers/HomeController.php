@@ -19,7 +19,6 @@ class HomeController extends Controller
 
         $foto = [
             ["foto" => asset('asset/2.jpg')],
-
         ];
 
         return view('home', compact('videos', 'guides', 'foto'));

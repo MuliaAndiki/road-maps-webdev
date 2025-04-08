@@ -18,6 +18,10 @@ class FullstackController extends Controller
     $href = [
       ["downloads" => "#"],
     ];
-    return view("FullStack", compact('judul', 'href'));
+
+    $share = [
+      ["share" => "#"]
+    ];
+    return view("FullStack", compact('judul', 'href', 'share'));
   }
 }
