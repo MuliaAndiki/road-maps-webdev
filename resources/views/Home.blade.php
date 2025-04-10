@@ -36,19 +36,19 @@
             <div id="tabel" class="grid grid-cols-3 grid-rows-1 gap-[3rem]">
                 <a href="/frontend">
                     <div data-aos="fade-right"
-                        class="border-2 flex items-center justify-start h-[3rem] w-[13rem] rounded-md hover:border-blue-50 duration-[0.3s]">
+                        class="border-2 flex items-center justify-start h-[3rem] w-[13rem] rounded-md hover:border-blue-50 duration-[0.3s] p-[1rem]">
                         <h1 class="text-white">Frontend</h1>
                     </div>
                 </a>
                 <a href="/backend">
                     <div data-aos="fade-up"
-                        class=" border-2 flex items-center justify-start h-[3rem] w-[13rem] rounded-md hover:border-blue-50 duration-[0.3s]">
+                        class=" border-2 flex items-center justify-start h-[3rem] w-[13rem] rounded-md hover:border-blue-50 duration-[0.3s] p-[1rem]">
                         <h1 class="text-white">Backend</h1>
                     </div>
                 </a>
                 <a href="/fullstack">
                     <div data-aos="fade-left"
-                        class="border-2 hover:border-blue-50 flex items-center justify-start h-[3rem] w-[13rem] rounded-md duration-[0.3s]">
+                        class="border-2 hover:border-blue-50 flex items-center justify-start h-[3rem] w-[13rem] rounded-md duration-[0.3s] p-[1rem]">
                         <h1 class="text-white">Full Stack</h1>
                     </div>
                 </a>

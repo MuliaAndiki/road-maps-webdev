@@ -15,7 +15,7 @@
                     </div>
                 </a>
                 <div class="flex gap-x-2">
-                    <div class=" bg-sky-100 rounded-md flex gap-x-1">
+                    <div class=" bg-sky-100 rounded-md flex gap-x-1 items-center p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
                             <path fill-rule="evenodd"
                                 d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"
@@ -25,7 +25,7 @@
                     </div>
 
                     <a href={{ $href }}>
-                        <div class="bg-yellow-300 rounded-md flex gap-x-1">
+                        <div class="bg-yellow-300 rounded-md flex gap-x-1 p-1 items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="size-5">
                                 <path
@@ -37,7 +37,7 @@
                         </div>
                     </a>
                     <a href={{ $share }}>
-                        <div class="bg-yellow-300 rounded-md flex gap-x-1">
+                        <div class="bg-yellow-300 rounded-md flex gap-x-1 p-1 items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="size-5">
                                 <path
@@ -90,10 +90,10 @@
                 </a>
             </div>
         </div>
-        <div class="flex justify-around border-1 rounded-md p-2">
-            <div class="flex gap-x-1">
-                <h1 class="bg-yellow-300 rounded-sm">0% Done</h1>
-                <h1 class="font-light">0 of 115 Done</h1>
+        <div class="flex justify-around border-1 rounded-md p-2 ">
+            <div class="flex gap-x-1 items-center">
+                <h1 class="bg-yellow-300 rounded-sm p-1">0% Done</h1>
+                <h1 class="font-light  ">0 of 115 Done</h1>
             </div>
             <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
