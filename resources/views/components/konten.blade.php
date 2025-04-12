@@ -8,54 +8,48 @@
         <div class="p-8 bg-white rounded-lg shadow-lg flex flex-col justify-between">
             <div>
                 <h1 class="text-lg leading-relaxed mb-6" title="judul">
-                    Lorem ipsum dolor sit amet consectetur.
+                    {{ $text }}
                 </h1>
-            </div>
-            <div class="space-y-4">
-                <div class="grid grid-cols-1 gap-4">
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Importan!</h1>
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum,</h1>
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum, </h1>
-                </div>
-
-                <div class="grid grid-cols-1 gap-4">
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum, </h1>
-                </div>
-
-                <div class="grid grid-cols-1 gap-4">
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum, </h1>
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum, </h1>
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum, </h1>
-                    <h1 class="font-medium w-full py-3 px-6 text-center">
-                        Lorem ipsum, </h1>
-                </div>
-
-                <div class="space-y-4 mt-8">
-                    <div class="p-4 border-2 rounded-lg">
-                        <p class="text-sm leading-relaxed">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus amet debitis a
-                            nesciunt,
-                            deserunt ratione labore maiores rerum totam.
-                        </p>
+                <div class="space-y-4">
+                    <div class="grid grid-cols-1 gap-4">
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text1 }} </h1>
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text2 }} </h1>
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text3 }} </h1>
                     </div>
 
-                    <div class="p-4 border-2 rounded-lg">
-                        <p class="text-sm leading-relaxed mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus amet debitis a
-                            nesciunt,
-                            deserunt ratione labore maiores rerum totam.
-                        </p>
-                        <button
-                            class="w-full py-3 px-6 border-2 rounded-lg bg-sky-600 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">
-                            You Are Finished
-                        </button>
+                    <div class="grid grid-cols-1 gap-4">
+
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text4 }} </h1>
+                    </div>
+
+                    <div class="grid grid-cols-1 gap-4">
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text5 }} </h1>
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text6 }} </h1>
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text7 }} </h1>
+                        <h1 class="font-medium w-full py-3 px-6 text-center">
+                            {{ $text8 }} </h1>
+                    </div>
+
+                    <div class="space-y-4 mt-8">
+                        <div class="p-4  rounded-lg">
+                            <p class="text-sm leading-relaxed">
+                                {{ $text9 }}
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-lg">
+                            <p class="text-sm leading-relaxed mb-4">
+                                {{ $text10 }}
+                            </p>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,55 +58,51 @@
         <!-- TENGAH -->
         <div class="p-8 bg-white rounded-lg shadow-lg">
             <div class="text-center mb-8">
-                <h1 class="font-bold text-3xl border-b-2 border-yellow-400 pb-2">Front-end</h1>
+                <h1 class="font-bold text-3xl border-b-2 border-yellow-400 pb-2">{{ $titleK }}</h1>
             </div>
 
             <div class="space-y-4">
                 <div class="grid grid-cols-1 gap-4">
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">HTML</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button }}</button>
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">CSS</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button1 }}</button>
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">JavaScript</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button2 }}</button>
                 </div>
 
                 <div class="grid grid-cols-2 gap-4">
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">Git</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button3 }}</button>
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">Github</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button4 }}</button>
                 </div>
 
                 <div class="grid grid-cols-1 gap-4">
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">Npm</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button5 }}</button>
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">React</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button6 }}</button>
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">Tailwind</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button7 }}</button>
                     <button
-                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">Vitest</button>
+                        class="w-full py-3 px-6 border-2 rounded-lg bg-yellow-300 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">{{ $button8 }}</button>
                 </div>
 
                 <div class="space-y-4 mt-8">
                     <div class="p-4 border-2 rounded-lg">
                         <p class="text-sm leading-relaxed">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus amet debitis a
-                            nesciunt,
-                            deserunt ratione labore maiores rerum totam.
+                {{ $texttengah }}
                         </p>
                     </div>
 
                     <div class="p-4 border-2 rounded-lg">
                         <p class="text-sm leading-relaxed mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus amet debitis a
-                            nesciunt,
-                            deserunt ratione labore maiores rerum totam.
+                            {{ $texttengah1 }}
                         </p>
                         <button
                             class="w-full py-3 px-6 border-2 rounded-lg bg-sky-600 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">
-                            You Are Finished
+                            {{ $button9 }}
                         </button>
                     </div>
                 </div>
@@ -124,54 +114,47 @@
         <div class="p-8 bg-white rounded-lg shadow-lg flex flex-col justify-between">
             <div>
                 <h1 class="text-lg leading-relaxed mb-6" title="judul">
-                    Lorem ipsum dolor sit amet consectetur.
+                    {{ $textkanan }}
                 </h1>
                 <div class="space-y-4">
                     <div class="grid grid-cols-1 gap-4">
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            lorem </h1>
+                            {{ $textkanan1 }} </h1>
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan2 }} </h1>
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan3 }} </h1>
                     </div>
 
                     <div class="grid grid-cols-1 gap-4">
 
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan4 }} </h1>
                     </div>
 
                     <div class="grid grid-cols-1 gap-4">
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan5 }} </h1>
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan6 }} </h1>
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan7 }} </h1>
                         <h1 class="font-medium w-full py-3 px-6 text-center">
-                            Lorem ipsum, </h1>
+                            {{ $textkanan8 }} </h1>
                     </div>
 
                     <div class="space-y-4 mt-8">
-                        <div class="p-4 border-2 rounded-lg">
+                        <div class="p-4 rounded-lg">
                             <p class="text-sm leading-relaxed">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus amet debitis a
-                                nesciunt,
-                                deserunt ratione labore maiores rerum totam.
+                                {{ $textkanan9 }}
                             </p>
                         </div>
 
-                        <div class="p-4 border-2 rounded-lg">
+                        <div class="p-4  rounded-lg">
                             <p class="text-sm leading-relaxed mb-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus amet debitis a
-                                nesciunt,
-                                deserunt ratione labore maiores rerum totam.
+                                {{ $textkanan10 }}
                             </p>
-                            <button
-                                class="w-full py-3 px-6 border-2 rounded-lg bg-sky-600 hover:bg-slate-600 hover:text-white transition duration-300 font-medium">
-                                You Are Finished
-                            </button>
+
                         </div>
                     </div>
                 </div>
