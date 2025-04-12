@@ -22,6 +22,6 @@ class FullstackController extends Controller
     $share = [
       ["share" => "#"]
     ];
-    return view("FullStack", compact('judul', 'href', 'share'));
+    return view("xe", compact('judul', 'href', 'share'));
   }
 }
