@@ -11,4 +11,6 @@ Route::get("/frontend", [FrontendController::class, 'index']);
 Route::get("/backend", [BackendController::class, 'index']);
 Route::get("/fullstack", [FullstackController::class, 'index']);
 
-
+Route::get('/login', function () {
+  return view('Login');
+});

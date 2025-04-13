@@ -16,7 +16,7 @@ class FullstackController extends Controller
     ];
 
     $href = [
-        ["downloads" => "https://thepearlie.com/wp-content/uploads/2023/11/The-Full-Stack-Developer.pdf"],
+      ["downloads" => "https://thepearlie.com/wp-content/uploads/2023/11/The-Full-Stack-Developer.pdf"],
     ];
 
 
@@ -25,51 +25,84 @@ class FullstackController extends Controller
     ];
 
     $kiri = [
-        "text" => "Tips & Notes",
-        "text1" => "Kuasai frontend dan backend secara bertahap, jangan terburu-buru.",
-        "text2" => "Pahami alur data dari client ke server dan kembali ke client.",
-        "text3" => "Gunakan satu stack dulu seperti MERN, LAMP, atau Laravel + Vue.",
-        "text4" => "Latih integrasi API secara manual sebelum pakai tools otomatis.",
-        "text5" => "Simpan struktur file yang rapi agar lebih mudah dipelihara.",
-        "text6" => "Selalu pisahkan logika frontend dan backend dengan jelas.",
-        "text7" => "Gunakan Git untuk manajemen versi di project fullstack.",
-        "text8" => "Belajar dasar deployment ke hosting seperti Vercel atau Render.",
-        "text9" => "Buat mini project end-to-end agar belajar lebih nyata.",
-        "text10" => "Bangun dokumentasi proyek agar mudah dikembangkan lebih lanjut.",
-
+      "title" => "Tips & Notes",
+      "items" => [
+        "Kuasai frontend dan backend secara bertahap, jangan terburu-buru.",
+        "Pahami alur data dari client ke server dan kembali ke client.",
+        "Gunakan satu stack dulu seperti MERN, LAMP, atau Laravel + Vue.",
+        "Latih integrasi API secara manual sebelum pakai tools otomatis.",
+        "Simpan struktur file yang rapi agar lebih mudah dipelihara.",
+        "Selalu pisahkan logika frontend dan backend dengan jelas.",
+        "Gunakan Git untuk manajemen versi di project fullstack.",
+        "Belajar dasar deployment ke hosting seperti Vercel atau Render.",
+        "Buat mini project end-to-end agar belajar lebih nyata.",
+        "Bangun dokumentasi proyek agar mudah dikembangkan lebih lanjut."
+      ]
     ];
 
-
     $tengah = [
-        "titleK" => "Fullstack",
-        "button" => "Fullstack Tools",
-        "button1" => "HTML, CSS, JavaScript",
-        "button2" => "Frontend Framework (React / Vue)",
-        "button3" => "Backend Framework (Express / Laravel)",
-        "button4" => "Database (MySQL / MongoDB)",
-        "button5" => "REST API / JSON",
-        "button6" => "Postman / Insomnia",
-        "button7" => "Git & GitHub",
-        "button8" => "Deployment (Vercel / Render / Railway)",
-        "texttengah" => "Fullstack mencakup penguasaan frontend dan backend serta kemampuan menghubungkan keduanya.",
-        "texttengah1" => "Pemahaman API, pengelolaan database, hingga deployment adalah kunci dalam pengembangan fullstack modern.",
-        "button9" => "Buat Mini Project Sekarang"
+      "title" => "Fullstack",
+      "items" => [
+        "Fullstack mencakup penguasaan frontend dan backend serta kemampuan menghubungkan keduanya.",
+        "Pemahaman API, pengelolaan database, hingga deployment adalah kunci dalam pengembangan fullstack modern."
+      ],
+      "cta" => [
+        "label" => "Buat Mini Project Sekarang",
+        "link" => "https://github.com/search?q=fullstack+mini+project"
+      ],
+      "buttons" => [
+        [
+          "label" => "HTML, CSS, JavaScript",
+          "link" => "https://www.freecodecamp.org/learn"
+        ],
+        [
+          "label" => "Frontend Framework (React / Vue)",
+          "link" => "https://react.dev/learn"
+        ],
+        [
+          "label" => "Backend Framework (Express / Laravel)",
+          "link" => "https://laravel.com/docs"
+        ],
+        [
+          "label" => "Database (MySQL / MongoDB)",
+          "link" => "https://www.mongodb.com/docs/"
+        ],
+        [
+          "label" => "REST API / JSON",
+          "link" => "https://restfulapi.net/"
+        ],
+        [
+          "label" => "Postman / Insomnia",
+          "link" => "https://www.postman.com/"
+        ],
+        [
+          "label" => "Git & GitHub",
+          "link" => "https://learngitbranching.js.org/"
+        ],
+        [
+          "label" => "Deployment (Vercel / Render / Railway)",
+          "link" => "https://vercel.com/docs"
+        ],
+      ]
     ];
 
     $kanan = [
-        "textkanan" => "Tips Praktis",
-        "textkanan1" => "Mulai dari frontend, lalu sambungkan dengan backend.",
-        "textkanan2" => "Gunakan JSON untuk komunikasi data antara client dan server.",
-        "textkanan3" => "Tes endpoint backend dengan Postman sebelum dihubungkan ke frontend.",
-        "textkanan4" => "Simpan kredensial penting di environment file (.env).",
-        "textkanan5" => "Pakai versi Git branching (misalnya main, dev, feature).",
-        "textkanan6" => "Gunakan CORS middleware jika backend dan frontend terpisah.",
-        "textkanan7" => "Buat validasi input baik di frontend maupun backend.",
-        "textkanan8" => "Latih deployment ke platform gratis untuk testing (Vercel, Render).",
-        "textkanan9" => "Lacak dan tangani error baik di client maupun server.",
-        "textkanan10" => "Bangun portofolio proyek fullstack real-world.",
-
+      "title" => "Tips Praktis",
+      "items" => [
+        "Mulai dari frontend, lalu sambungkan dengan backend.",
+        "Gunakan JSON untuk komunikasi data antara client dan server.",
+        "Tes endpoint backend dengan Postman sebelum dihubungkan ke frontend.",
+        "Simpan kredensial penting di environment file (.env).",
+        "Pakai versi Git branching (misalnya main, dev, feature).",
+        "Gunakan CORS middleware jika backend dan frontend terpisah.",
+        "Buat validasi input baik di frontend maupun backend.",
+        "Latih deployment ke platform gratis untuk testing (Vercel, Render).",
+        "Lacak dan tangani error baik di client maupun server.",
+        "Bangun portofolio proyek fullstack real-world."
+      ]
     ];
+
+
 
     return view("fullstack", compact('judul', 'href', 'share', 'tengah', 'kiri', 'kanan'));
   }
