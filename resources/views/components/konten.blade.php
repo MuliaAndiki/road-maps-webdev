@@ -6,8 +6,8 @@
 
         <!-- KIRI -->
         <div class="p-8 bg-white rounded-lg shadow-lg flex flex-col justify-between">
-            <div>
-                <h1 class="text-lg leading-relaxed mb-6" title="judul">{{ $kiri['title'] }}</h1>
+            <div data-aos="fade-right">
+                <h1 class="text-lg leading-relaxed mb-6 text-center" title="judul">{{ $kiri['title'] }}</h1>
                 <div class="space-y-4">
                     @foreach ($kiri['items'] as $item)
                         <div class="grid grid-cols-1 gap-4">
@@ -19,7 +19,7 @@
         </div>
 
         <!-- TENGAH -->
-        <div class="p-8 bg-white rounded-lg shadow-lg">
+        <div class="p-8 bg-white rounded-lg shadow-lg " data-aos="fade-up">
             <div class="text-center mb-8">
                 <h1 class="font-bold text-3xl border-b-2 border-yellow-400 pb-2">{{ $tengah['title'] }}</h1>
             </div>
@@ -57,8 +57,8 @@
 
         <!-- KANAN -->
         <div class="p-8 bg-white rounded-lg shadow-lg flex flex-col justify-between">
-            <div>
-                <h1 class="text-lg leading-relaxed mb-6" title="judul">{{ $kanan['title'] }}</h1>
+            <div data-aos="fade-left">
+                <h1 class="text-lg leading-relaxed mb-6 text-center" title="judul">{{ $kanan['title'] }}</h1>
                 <div class="space-y-4">
                     @foreach ($kanan['items'] as $item)
                         <div class="grid grid-cols-1 gap-4">

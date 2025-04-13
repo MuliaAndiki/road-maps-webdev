@@ -14,7 +14,7 @@
 <body>
     <div class="bg-slate-900 min-h-screen w-screen">
         <div id="header" class="py-[4rem]">
-            <div class="pb-[1rem]" data-aos="fade-right">
+            <div class="pb-[1rem] pt-[1rem]">
                 <x-navbar />
             </div>
             <div class="border-b-2 h-[10rem]">
@@ -24,9 +24,10 @@
                         WebDeveloper Roadmaps</h1>
                 </div>
                 <div class="flex justify-center">
-                    <p class="text-white text-2x1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
-                        distinctio tempora laudantium earum provident accusamus alias qui, aliquid perferendis
-                        accusantium deserunt. Vel numquam dolorum, officia aperiam eaque voluptatem repellendus ea? .
+                    <p class="text-white text-2x1 italic ">Bingung mulai dari mana? Roadmap ini bantu kamu belajar
+                        web
+                        development langkah demi langkah. Simpel, terarah, dan cocok buat pemula maupun yang mau naik
+                        level! .
                     </p>
                 </div>
             </div>

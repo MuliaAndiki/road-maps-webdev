@@ -6,38 +6,40 @@
     <div id="footer-container" class="space-y-10">
 
       <!-- Navigasi -->
-      <div class="flex justify-center items-center gap-x-10">
-        <a href="#header">
+      <div class="flex justify-center items-center gap-x-10 data-aos=" fade-up"">
+        <a href="/">
           <h1 class="font-bold text-slate-400 hover:text-white duration-300">Roadmaps</h1>
         </a>
-        <a href="#container-guides">
+        <a href="/">
           <h1 class="font-bold text-slate-400 hover:text-white duration-300">Guides</h1>
         </a>
-        <a href="#container-video">
+        <a href="/">
           <h1 class="font-bold text-slate-400 hover:text-white duration-300">Videos</h1>
         </a>
-        <a href="#">
+        <a href="/">
           <h1 class="font-bold text-slate-400 hover:text-white duration-300">Creator</h1>
         </a>
       </div>
 
       <!-- Info -->
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center" data-aos="fade-right">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 text-center">
           <div class="flex flex-col items-center">
             <h1 class="font-bold text-white text-lg">WebDev by
-              <span class="bg-sky-600 px-2 rounded-sm">Kelompok Diki</span>
+              <span class="bg-sky-600 px-2 rounded-sm">Roadmaps</span>
             </h1>
             <p class="text-slate-400 text-sm mt-2 max-w-sm">
               Platform belajar web development dengan roadmap bertahap dari pemula hingga mahir.
             </p>
           </div>
 
-          <div class="flex flex-col items-center">
-            <h1 class="font-bold text-white text-lg">The New WebDev</h1>
-            <p class="text-slate-400 text-sm mt-2 max-w-sm">
-              Menyongsong era baru coding yang lebih modern, terstruktur, dan menyenangkan.
-            </p>
+          <div data-aos="fade-left">
+            <div class="flex flex-col items-center" data-aos="fade-left">
+              <h1 class="font-bold text-white text-lg">The New WebDev</h1>
+              <p class="text-slate-400 text-sm mt-2 max-w-sm">
+                Menyongsong era baru coding yang lebih modern, terstruktur, dan menyenangkan.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -45,7 +47,8 @@
       <!-- Social Media -->
       <div class="flex justify-center gap-6">
         <!-- GitHub -->
-        <a href="https://github.com" target="_blank" class="text-slate-400 hover:text-white duration-300">
+        <a href="https://github.com/MuliaAndiki/road-maps-webdev" target="_blank"
+          class="text-slate-400 hover:text-white duration-300">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <path fill-rule="evenodd"
               d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.21 11.44c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.73.08-.73 1.22.09 1.87 1.26 1.87 1.26 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.51.12-3.14 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.63.25 2.84.12 3.14.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.47 5.92.43.37.81 1.1.81 2.22v3.3c0 .32.22.69.83.57A12 12 0 0024 12c0-6.63-5.37-12-12-12z"
@@ -72,7 +75,7 @@
 
       <!-- Copyright -->
       <div class="text-center mt-4">
-        <p class="text-slate-500 text-sm">&copy; 2025 Kelompok Diki. All rights reserved.</p>
+        <p class="text-slate-500 text-sm">&copy; 2025 Roadsmaps. All rights reserved.</p>
       </div>
 
     </div>

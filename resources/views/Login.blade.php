@@ -10,7 +10,9 @@
 </head>
 
 <body>
-  <x-navbar />
+  <div class="pt-[1rem] bg-slate-900 pb-[1rem]">
+    <x-navbar />
+  </div>
   <div class="bg-slate-900 flex items-center justify-center min-h-screen">
 
     <div class="bg-slate-800 p-8 rounded-lg shadow-lg w-full max-w-sm">
@@ -33,6 +35,11 @@
         <a href="/">
           <button type="submit"
             class="w-full p-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Login</button>
+        </a>
+        <a href="/register">
+          <div class="flex justify-center ">
+            <h1 class="text-purple-400 hover:underline">Blum mempunyai Akun?</h1>
+          </div>
         </a>
       </div>
     </div>

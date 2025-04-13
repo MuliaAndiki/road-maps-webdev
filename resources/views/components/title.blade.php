@@ -1,8 +1,8 @@
 @vite('resources/css/app.css')
 @vite('resources/js/app.js')
 <div class="bg-white flex justify-center p-[1rem]">
-    <div class="flex-col">
-        <div class="w-[40vw] border-1 rounded-md p-[1rem]">
+    <div class="flex-col" data-aos="fade-up">
+        <div class="w-[40vw] border-1 rounded-md p-[1rem] ">
             <div class="flex justify-between">
                 <a href="/">
                     <div class="flex gap-x-1">
@@ -93,7 +93,7 @@
         <div class="flex justify-around border-1 rounded-md p-2 ">
             <div class="flex gap-x-1 items-center">
                 <h1 class="bg-yellow-300 rounded-sm p-1">0% Done</h1>
-                <h1 class="font-light  ">0 of 115 Done</h1>
+                <h1 class="font-light  ">0 of 8 Done</h1>
             </div>
             <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
