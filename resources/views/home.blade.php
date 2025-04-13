@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="bg-slate-900 h-screen w-screen">
+    <div class="bg-slate-900 min-h-screen w-screen">
         <div id="header" class="py-[4rem]">
             <div class="pb-[1rem]" data-aos="fade-right">
                 <x-navbar />
