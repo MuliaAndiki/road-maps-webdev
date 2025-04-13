@@ -1,19 +1,16 @@
 <?php
 
+use App\Http\Controllers\BackendController;
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\FullstackController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () {
-    return view('Home');
-});
+Route::get("/", [HomeController::class, 'index']);
+Route::get("/frontend", [FrontendController::class, 'index']);
+Route::get("/backend", [BackendController::class, 'index']);
+Route::get("/fullstack", [FullstackController::class, 'index']);
 
-Route::get('/frontend', function(){
-    return view('FrontEnd');
-});
-
-Route::get('/backend', function(){
-    return view('BackEnd');
-});
-
-Route::get('/fullstack', function(){
-    return view('FullStack');
+Route::get('/login', function () {
+    return view('Login');
 });
