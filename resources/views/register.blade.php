@@ -19,7 +19,7 @@
         class="text-3xl font-bold text-white text-center mb-6 bg-gradient-to-b from-amber-50 to-purple-500 bg-clip-text">
         Register Account
       </h1>
-      <form class="space-y-4">
+      <div class="space-y-4">
         <div>
           <label for="nama" class="block text-white font-semibold mb-1">Nama Lengkap</label>
           <input type="text" id="nama" name="nama" placeholder="Masukkan nama"
@@ -49,7 +49,7 @@
           Sudah punya akun?
           <a href="/login" class="text-purple-400 hover:underline">Login di sini</a>
         </p>
-      </form>
+      </div>
     </div>
   </div>
 

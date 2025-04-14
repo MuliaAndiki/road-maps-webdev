@@ -59,7 +59,7 @@
         {{-- Foto --}}
         <div id="Foto" class="">
             <div class="flex justify-center py-[2rem]">
-                <h1 class="font-bold text-white :">Tools :</h1>
+                <h1 class="font-bold text-white :"></h1>
             </div>
             <div class="grid grid-cols-4 grid-rows-1 gap-[3rem] py-[1rem] px-8 h-[16rem]">
                 @foreach ($foto as $fotos)
