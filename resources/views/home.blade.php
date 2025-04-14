@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <div class="bg-slate-900 h-screen w-screen">
+    <div class="bg-slate-900 min-h-screen w-screen">
         <div id="header" class="py-[4rem]">
-            <div class="pb-[1rem]" data-aos="fade-right">
+            <div class="pb-[1rem] pt-[1rem]">
                 <x-navbar />
             </div>
             <div class="border-b-2 h-[10rem]">
@@ -24,14 +24,15 @@
                         WebDeveloper Roadmaps</h1>
                 </div>
                 <div class="flex justify-center">
-                    <p class="text-white text-2x1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
-                        distinctio tempora laudantium earum provident accusamus alias qui, aliquid perferendis
-                        accusantium deserunt. Vel numquam dolorum, officia aperiam eaque voluptatem repellendus ea? .
+                    <p class="text-white text-2x1 italic ">Bingung mulai dari mana? Roadmap ini bantu kamu belajar
+                        web
+                        development langkah demi langkah. Simpel, terarah, dan cocok buat pemula maupun yang mau naik
+                        level! .
                     </p>
                 </div>
             </div>
         </div>
-        {{-- Main --}}
+        {{-- Mainn --}}
         <div id="main" class="items-center flex justify-center">
             <div id="tabel" class="grid grid-cols-3 grid-rows-1 gap-[3rem]">
                 <a href="/frontend">
@@ -58,7 +59,7 @@
         {{-- Foto --}}
         <div id="Foto" class="">
             <div class="flex justify-center py-[2rem]">
-                <h1 class="font-bold text-white :">Tools :</h1>
+                <h1 class="font-bold text-white :"></h1>
             </div>
             <div class="grid grid-cols-4 grid-rows-1 gap-[3rem] py-[1rem] px-8 h-[16rem]">
                 @foreach ($foto as $fotos)
