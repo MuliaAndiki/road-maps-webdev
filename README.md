@@ -1,66 +1,119 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 **Project Roadmap - Fullstack Development Journey** 🌍
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Selamat datang di **Project Roadmap**! 🌟
 
-## About Laravel
+Proyek ini bertujuan untuk memberikan peta jalan pengembangan yang jelas dan terstruktur bagi pengembang yang ingin menguasai **Fullstack Development**. Dari **Frontend** hingga **Backend**, kami akan membimbing Anda melalui perjalanan yang penuh tantangan dan peluang untuk belajar dan berkembang.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📖 **Tentang Project ini**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**Project Roadmap** adalah sebuah peta jalan untuk memandu para pengembang dari **Dasar** hingga **Mahir** dalam pengembangan aplikasi **Fullstack**. Roadmap ini membagi perjalanan Anda menjadi tiga bagian utama:
 
-## Learning Laravel
+1. **Frontend** – Membangun tampilan antarmuka pengguna (UI) yang indah dan fungsional.
+2. **Backend** – Menangani logika server, komunikasi data, dan pengelolaan database.
+3. **Praktis** – Tips dan praktik terbaik untuk membantu Anda bekerja lebih efisien dan efektif dalam pengembangan aplikasi.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🚧 **Bagian Roadmap**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 1. **Frontend Development** 🔥
 
-## Laravel Sponsors
+Di bagian ini, Anda akan menguasai dasar-dasar pengembangan **Frontend** mulai dari **HTML**, **CSS**, **JavaScript**, hingga pengembangan **Frontend Frameworks** seperti **React** dan **Vue.js**. Kami juga akan menunjukkan alat bantu yang harus dikuasai seperti **VS Code**, **Git**, dan **NPM**.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+#### **Tips & Notes** 💡
 
-### Premium Partners
+-   Kuasai **HTML** dan **CSS** sebelum melangkah ke **JavaScript**.
+-   Gunakan **DevTools** untuk latihan menganalisis struktur halaman web.
+-   Gunakan **Version Control (Git)** dari awal proyek Anda.
+-   **Frontend** selalu berkembang, jadi pastikan Anda terus memperbarui keterampilan Anda!
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+#### **Teknologi yang digunakan**:
 
-## Contributing
+-   **HTML** | **CSS** | **JavaScript**
+-   **React** | **Vue.js**
+-   **Git** | **VS Code** | **NPM**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Link pembelajaran lebih lanjut:**
 
-## Code of Conduct
+-   [HTML, CSS, JavaScript](https://www.freecodecamp.org/learn)
+-   [Frontend Frameworks (React / Vue)](https://react.dev/learn)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+### 2. **Backend Development** ⚙️
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Di bagian **Backend**, kami akan membawa Anda melalui penguasaan **Node.js**, **Express**, **Laravel**, **Databases** seperti **MySQL** dan **MongoDB**, serta pengelolaan **REST API**. Anda akan belajar bagaimana cara membuat aplikasi server-side yang kuat dan efisien.
 
-## License
+#### **Tips & Notes** 💡
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   Fokuslah pada satu bahasa backend dulu, seperti **Node.js**, **PHP**, atau **Python**.
+-   Pelajari cara membuat dan menghubungkan **REST APIs**.
+-   Gunakan **Postman** untuk menguji API Anda dengan efisien.
+-   **Backend Security** itu penting! Pelajari cara melindungi data pengguna dan aplikasinya.
+
+#### **Teknologi yang digunakan**:
+
+-   **Laravel** | **PHP** | **MYSQL** | **TaildwindCss**
+
+**Link pembelajaran lebih lanjut:**
+
+-   [Node.js / PHP / Python](https://nodejs.org/ | https://www.php.net/ | https://www.python.org/)
+-   [Express / Laravel / Flask](https://expressjs.com/ | https://laravel.com/ | https://flask.palletsprojects.com/)
+
+---
+
+### 3. **Praktis: Tips dan Trik** ⚡️
+
+Bagian ini berisi berbagai **tips praktis** untuk membuat pekerjaan pengembangan Anda lebih mudah dan efisien. Dari **penggunaan Git**, **testing API** hingga **deployment ke platform cloud**, semua akan dibahas di sini.
+
+#### **Tips Praktis** 💡
+
+-   Gunakan **CORS middleware** jika backend dan frontend terpisah.
+-   Selalu uji endpoint **Backend** dengan **Postman**.
+-   Lakukan **testing** secara menyeluruh sebelum menghubungkan backend ke frontend.
+-   Gunakan **Git branching** untuk mengelola fitur-fitur baru.
+
+---
+
+## 🔥 **Kenapa Harus Mengikuti Roadmap Ini?**
+
+-   **Struktur yang Jelas**: Menyediakan peta jalan dari **Dasar** hingga **Mahir**, yang memandu Anda melalui setiap langkah.
+-   **Belajar Berdasarkan Proyek**: Dengan **mini projects** dan latihan praktis, Anda bisa langsung mengaplikasikan apa yang dipelajari.
+-   **Pembaruan Berkala**: Selalu diperbarui agar tetap relevan dengan teknologi terbaru di dunia pengembangan perangkat lunak.
+
+---
+
+## 🚀 **Mulai Perjalanan Anda Sekarang!**
+
+Tidak ada waktu yang lebih baik untuk memulai perjalanan pengembangan Anda dari sekarang. Dengan **Project Roadmap** ini, Anda akan memiliki panduan yang solid untuk menguasai **Fullstack Development**.
+
+👉 [Pelajari Frontend Sekarang](https://www.freecodecamp.org/learn)
+👉 [Pelajari Backend Sekarang](https://www.freecodecamp.org/learn/back-end/)
+
+---
+
+## 📚 **Kontribusi**
+
+Kami sangat menghargai kontribusi dari komunitas! Jika Anda memiliki saran, perbaikan, atau tambahan materi, jangan ragu untuk membuka **Pull Request** atau memberi **Issue** di repositori ini.
+
+---
+
+## 📱 **Hubungi Kami**
+
+Jika Anda punya pertanyaan atau butuh bantuan, jangan ragu untuk menghubungi kami! Kami senang bisa membantu Anda dalam perjalanan pengembangan perangkat lunak Anda.
+
+**Email**: contact@projectroadmap.com
+
+---
+
+Terus belajar dan berkembang, karena **pengembang hebat** adalah yang tidak pernah berhenti belajar! 🚀
+
+## **How To Start**
+
+-   Git clone Repository
+-   Php artisan serve - port 8000
+-   npm run dev - Start Dev
+
+Happy Coding! ✨
