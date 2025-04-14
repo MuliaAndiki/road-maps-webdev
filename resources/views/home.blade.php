@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        {{-- Main --}}
+        {{-- Mainn --}}
         <div id="main" class="items-center flex justify-center">
             <div id="tabel" class="grid grid-cols-3 grid-rows-1 gap-[3rem]">
                 <a href="/frontend">
