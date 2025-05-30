@@ -18,8 +18,11 @@
   <x-title :judul="$judul['judul']" :deskripsi="$judul['deskripsi']" :paragraf="$judul['paragraf']"
     :href="$href[0]['downloads']" :share="$share[0]['share']" />
   <x-konten :kiri="$kiri" :tengah="$tengah" :kanan="$kanan" />
-  <x-comunnity />
-  <x-footer />
+  <div class="my-10">
+      <x-comunnity />
+  <x-footer /> 
+  </div>
+
 </body>
 
 </html>

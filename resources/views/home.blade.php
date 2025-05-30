@@ -98,9 +98,7 @@
         </div>
       </div>
 
-      {{-- Join the Community --}}
       <x-comunnity />
-      {{-- Footer --}}
       <x-footer />
     </div>
   </div>
