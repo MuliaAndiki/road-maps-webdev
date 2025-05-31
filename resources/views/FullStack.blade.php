@@ -14,12 +14,16 @@
   <div class="pt-[1rem] bg-slate-900 pb-[1rem]">
     <x-navbar />
   </div>
-  <x-title :judul="$judul['judul']" :deskripsi="$judul['deskripsi']" :paragraf="$judul['paragraf']"
-    :href="$href[0]['downloads']" :share="$share[0]['share']" />
-  <x-konten :kiri="$kiri" :tengah="$tengah" :kanan="$kanan" />
+  <x-title :judul="$judul->judul ?? ''" :deskripsi="$judul->deskripsi ?? ''" :paragraf="$judul->paragraf ?? ''"
+    :href="$href->downloads ?? ''" :share="$share->share ?? ''" />
+  <x-konten
+    :kiriItems="$kiriItemsFormatted"
+    :tengahContent="$tengahContent"
+    :kananItems="$kananItemsFormatted"
+/>
   <div class="my-10">
-      <x-comunnity />
-  <x-footer /> 
+    <x-comunnity />
+    <x-footer />
   </div>
 </body>
 

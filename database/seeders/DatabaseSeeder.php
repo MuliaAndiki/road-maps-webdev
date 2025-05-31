@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\TipsPraktisFrontend;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -13,11 +14,23 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+       $this->call([
+        // VideosTableSeeder::class,
+        // GuidesTableSeeder::class,
+        // FotosTableSeeder::class,
+        // JudulFullstackSeeder::class,
+        // HrefFullstackSeeder::class,
+        // ShareFullstackSeeder::class,
+        // TipsNoteFullstackSeeder::class,
+        // FullstackContentSeeder::class,
+        // TipsPraktisFullstackSeeder::class,
+        JudulFrontendSeeder::class,
+        HrefFrontendSeeder::class,
+        ShareFrontendSeeder::class,
+        TipsNoteFrontendSeeder::class,
+        TipsPraktisFrontendSeeder::class,
+        FrontendContentSeeder::class,
+        FrontendButtonSeeder::class,
+       ]);
     }
 }
