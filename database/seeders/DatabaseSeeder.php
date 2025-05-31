@@ -18,19 +18,29 @@ class DatabaseSeeder extends Seeder
         // VideosTableSeeder::class,
         // GuidesTableSeeder::class,
         // FotosTableSeeder::class,
+        
         // JudulFullstackSeeder::class,
         // HrefFullstackSeeder::class,
         // ShareFullstackSeeder::class,
         // TipsNoteFullstackSeeder::class,
         // FullstackContentSeeder::class,
         // TipsPraktisFullstackSeeder::class,
-        JudulFrontendSeeder::class,
-        HrefFrontendSeeder::class,
-        ShareFrontendSeeder::class,
-        TipsNoteFrontendSeeder::class,
-        TipsPraktisFrontendSeeder::class,
-        FrontendContentSeeder::class,
-        FrontendButtonSeeder::class,
+
+        // JudulFrontendSeeder::class,
+        // HrefFrontendSeeder::class,
+        // ShareFrontendSeeder::class,
+        // TipsNoteFrontendSeeder::class,
+        // TipsPraktisFrontendSeeder::class,
+        // FrontendContentSeeder::class,
+        // FrontendButtonSeeder::class,
+
+        JudulBackendSeeder::class,
+        HrefBackendSeeder::class,
+        ShareBackendSeeder::class,
+        TipsNoteBackendSeeder::class,
+        BackendContentSeeder::class,
+        BackendButtonSeeder::class,
+        TipsPraktisBackendSeeder::class,
        ]);
     }
 }
