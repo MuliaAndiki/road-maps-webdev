@@ -15,7 +15,7 @@
     <x-navbar />
   </div>
   <x-title :judul="$judul->judul ?? ''" :deskripsi="$judul->deskripsi ?? ''" :paragraf="$judul->paragraf ?? ''"
-    :href="$href->downloads ?? ''" :share="$share->share ?? ''" />
+    :href="$href->downloads ?? ''" :share="$share->share ?? ''" :keterangan="$keterangan" />
   <x-konten
     :kiriItems="$kiriItemsFormatted"
     :tengahContent="$tengahContent"

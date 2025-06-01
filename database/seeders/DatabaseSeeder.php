@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\KeteranganFrontend;
 use App\Models\TipsPraktisFrontend;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -34,13 +35,17 @@ class DatabaseSeeder extends Seeder
         // FrontendContentSeeder::class,
         // FrontendButtonSeeder::class,
 
-        JudulBackendSeeder::class,
-        HrefBackendSeeder::class,
-        ShareBackendSeeder::class,
-        TipsNoteBackendSeeder::class,
-        BackendContentSeeder::class,
-        BackendButtonSeeder::class,
-        TipsPraktisBackendSeeder::class,
+        // JudulBackendSeeder::class,
+        // HrefBackendSeeder::class,
+        // ShareBackendSeeder::class,
+        // TipsNoteBackendSeeder::class,
+        // BackendContentSeeder::class,
+        // BackendButtonSeeder::class,
+        // TipsPraktisBackendSeeder::class,
+
+        KeteranganBackendSeeder::class,
+        KeteranganFrontendSeeder::class,
+        KeteranganFullstackSeeder::class
        ]);
     }
 }

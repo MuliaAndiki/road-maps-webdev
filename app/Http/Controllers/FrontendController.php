@@ -9,6 +9,7 @@ use App\Models\JudulFrontend;
 use App\Models\ShareFrontend;
 use App\Models\TipsNoteFrontend;
 use App\Models\TipsPraktisFrontend;
+use App\Models\KeteranganFrontend;
 
 class FrontendController extends Controller
 {
@@ -17,6 +18,8 @@ class FrontendController extends Controller
         $judul = JudulFrontend::first();
         $href = HrefFrontend::first();
         $share = ShareFrontend::first();
+        $keterangan = KeteranganFrontend::select('keterangan')->get();
+
 
         
         $kiriNotes = TipsNoteFrontend::pluck('item')->toArray();
@@ -34,6 +37,6 @@ class FrontendController extends Controller
 
         $tengahContent = FrontendContent::with('buttons')->first();
 
-       return view("frontend", compact('judul', 'href', 'share', 'kiriItemsFormatted', 'tengahContent', 'kananItemsFormatted'));
+       return view("frontend", compact('judul', 'href', 'share', 'kiriItemsFormatted', 'tengahContent', 'kananItemsFormatted', 'keterangan'));
     }
 }

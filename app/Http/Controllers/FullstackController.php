@@ -8,6 +8,7 @@ use App\Models\JudulFullstack;
 use App\Models\ShareFullstack;
 use App\Models\TipsNoteFullstack;
 use App\Models\TipsPraktisFullstack;
+use App\Models\KeteranganFullstack;
 use Illuminate\Http\Request;
 
 class FullstackController extends Controller
@@ -17,6 +18,7 @@ class FullstackController extends Controller
         $judul = JudulFullstack::first();
         $href = HrefFullstack::first();
         $share = ShareFullstack::first();
+        $keterangan = KeteranganFullstack::select('keterangan')->get();
 
         
         $kiriNotes = TipsNoteFullstack::pluck('item')->toArray();
@@ -34,6 +36,6 @@ class FullstackController extends Controller
 
         $tengahContent = FullstackContent::with('buttons')->first();
 
-       return view("fullstack", compact('judul', 'href', 'share', 'kiriItemsFormatted', 'tengahContent', 'kananItemsFormatted'));
+       return view("fullstack", compact('judul', 'href', 'share', 'kiriItemsFormatted', 'tengahContent', 'kananItemsFormatted', 'keterangan'));
     }
 }

@@ -13,14 +13,16 @@ class title extends Component
     public $paragraf;
     public $href;
     public $share;
+    public $keterangan;
 
-    public function __construct($judul, $deskripsi, $paragraf, $href, $share)
+    public function __construct($judul, $deskripsi, $paragraf, $href, $share, $keterangan)
     {
         $this->judul = $judul;
         $this->deskripsi = $deskripsi;
         $this->paragraf = $paragraf;
         $this->href = $href;
         $this->share = $share;
+        $this->keterangan = $keterangan;
     }
 
     /**
