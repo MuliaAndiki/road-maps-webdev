@@ -123,7 +123,7 @@
             <x-popup id="popUpComponent" :isOpen='false' class="w-full h-full">
                 <main class="w-full h-full ">
                     <div class="flex justify-center items-center w-full">
-                        <h1>
+                        <h1 class="font-bold text-center">
                            {{$keterangan}}
                         </h1>
                     </div>

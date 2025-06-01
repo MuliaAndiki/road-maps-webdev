@@ -26,6 +26,13 @@
                 </div>
 
                 <div>
+                    <label for="email" class="block text-white font-semibold mb-1">Masukkan Email : </label>
+                    <input type="text" id="email" name="email" placeholder="Masukkan Email"
+                        class="w-full px-4 py-2 rounded-md bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500 transition duration-300"
+                        required />
+                </div>
+
+                <div>
                     <label for="username" class="block text-white font-semibold mb-1">Username :</label>
                     <input type="text" id="username" name="username" placeholder="Masukkan username"
                         class="w-full px-4 py-2 rounded-md bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500 transition duration-300"

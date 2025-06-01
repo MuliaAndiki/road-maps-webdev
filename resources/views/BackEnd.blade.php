@@ -11,21 +11,31 @@
 </head>
 
 <body>
-  <div class="pt-[1rem] bg-slate-900 pb-[1rem]">
-
-    <x-navbar data-aos="fade-right" />
-  </div>
-   <x-title :judul="$judul->judul ?? ''" :deskripsi="$judul->deskripsi ?? ''" :paragraf="$judul->paragraf ?? ''"
-    :href="$href->downloads ?? ''" :share="$share->share ?? ''" :keterangan="$keterangan" />
-  <x-konten
-    :kiriItems="$kiriItemsFormatted"
-    :tengahContent="$tengahContent"
-    :kananItems="$kananItemsFormatted"
-/>
-  <div class="my-10">
-      <x-comunnity />
-  <x-footer /> 
-  </div>
+  <main class="container" class="overflow-x-hidden">
+    <div class="pt-4 pb-4 bg-slate-900">
+      <!-- Header content can go here -->
+    </div>
+    
+    <x-title 
+      :judul="$judul->judul ?? 'Default Title'" 
+      :deskripsi="$judul->deskripsi ?? 'Default Description'" 
+      :paragraf="$judul->paragraf ?? 'Default Paragraph'" 
+      :href="$href->downloads ?? '#'" 
+      :share="$share->share ?? ''" 
+      :keterangan="$keterangan ?? ''" 
+    />
+    
+    <x-konten 
+      :kiriItems="$kiriItemsFormatted ?? []" 
+      :tengahContent="$tengahContent ?? ''" 
+      :kananItems="$kananItemsFormatted ?? []" 
+    />
+    
+    <div class="my-10">
+      <x-comunnity /> 
+      <x-footer />
+    </div>
+  </main>
 </body>
 
 </html>
