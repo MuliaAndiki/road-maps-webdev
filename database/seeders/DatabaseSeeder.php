@@ -16,36 +16,36 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
        $this->call([
-        // VideosTableSeeder::class,
-        // GuidesTableSeeder::class,
-        // FotosTableSeeder::class,
-        
-        // JudulFullstackSeeder::class,
-        // HrefFullstackSeeder::class,
-        // ShareFullstackSeeder::class,
-        // TipsNoteFullstackSeeder::class,
-        // FullstackContentSeeder::class,
-        // TipsPraktisFullstackSeeder::class,
+        VideosTableSeeder::class,
+        GuidesTableSeeder::class,
+        FotosTableSeeder::class,
 
-        // JudulFrontendSeeder::class,
-        // HrefFrontendSeeder::class,
-        // ShareFrontendSeeder::class,
-        // TipsNoteFrontendSeeder::class,
-        // TipsPraktisFrontendSeeder::class,
-        // FrontendContentSeeder::class,
-        // FrontendButtonSeeder::class,
+        JudulFullstackSeeder::class,
+        HrefFullstackSeeder::class,
+        ShareFullstackSeeder::class,
+        TipsNoteFullstackSeeder::class,
+        FullstackContentSeeder::class,
+        TipsPraktisFullstackSeeder::class,
 
-        // JudulBackendSeeder::class,
-        // HrefBackendSeeder::class,
-        // ShareBackendSeeder::class,
-        // TipsNoteBackendSeeder::class,
-        // BackendContentSeeder::class,
-        // BackendButtonSeeder::class,
-        // TipsPraktisBackendSeeder::class,
+        JudulFrontendSeeder::class,
+        HrefFrontendSeeder::class,
+        ShareFrontendSeeder::class,
+        TipsNoteFrontendSeeder::class,
+        TipsPraktisFrontendSeeder::class,
+        FrontendContentSeeder::class,
+        FrontendButtonSeeder::class,
 
-        // KeteranganBackendSeeder::class,
-        // KeteranganFrontendSeeder::class,
-        // KeteranganFullstackSeeder::class
+        JudulBackendSeeder::class,
+        HrefBackendSeeder::class,
+        ShareBackendSeeder::class,
+        TipsNoteBackendSeeder::class,
+        BackendContentSeeder::class,
+        BackendButtonSeeder::class,
+        TipsPraktisBackendSeeder::class,
+
+        KeteranganBackendSeeder::class,
+        KeteranganFrontendSeeder::class,
+        KeteranganFullstackSeeder::class
        ]);
     }
 }

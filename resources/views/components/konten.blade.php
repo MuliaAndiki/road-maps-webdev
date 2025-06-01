@@ -24,7 +24,7 @@
                 @if (isset($tengahContent['title']))
                     <h1 class="font-bold text-3xl border-b-2 border-yellow-400 pb-2">{{ $tengahContent['title'] }}</h1>
                 @else
-                    <h1 class="font-bold text-3xl border-b-2 border-yellow-400 pb-2">Judul Default</h1> 
+                    <h1 class="font-bold text-3xl border-b-2 border-yellow-400 pb-2">Judul Default</h1>
                 @endif
             </div>
 
