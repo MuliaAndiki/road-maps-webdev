@@ -8,15 +8,15 @@ use Illuminate\View\Component;
 
 class Konten extends Component
 {
-    public $kiri;
-    public $tengah;
-    public $kanan;
+    public $kiriItems;
+    public $tengahContent;
+    public $kananItems;
 
-    public function __construct($kiri, $tengah, $kanan)
+    public function __construct($kiriItems, $tengahContent, $kananItems)
     {
-        $this->kiri = $kiri;
-        $this->tengah = $tengah;
-        $this->kanan = $kanan;
+        $this->kiriItems  = $kiriItems;
+        $this->tengahContent = $tengahContent;
+        $this->kananItems = $kananItems;
     }
 
     public function render(): View|Closure|string

@@ -8,20 +8,21 @@ use Illuminate\View\Component;
 
 class title extends Component
 {
-
     public $judul;
     public $deskripsi;
     public $paragraf;
     public $href;
     public $share;
-    public function __construct($judul, $deskripsi, $paragraf, $href, $share)
+    public $keterangan;
+
+    public function __construct($judul, $deskripsi, $paragraf, $href, $share, $keterangan)
     {
         $this->judul = $judul;
         $this->deskripsi = $deskripsi;
         $this->paragraf = $paragraf;
         $this->href = $href;
         $this->share = $share;
-
+        $this->keterangan = $keterangan;
     }
 
     /**

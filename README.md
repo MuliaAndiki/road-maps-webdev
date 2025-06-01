@@ -32,8 +32,6 @@ Di bagian ini, Anda akan menguasai dasar-dasar pengembangan **Frontend** mulai d
 #### **Teknologi yang digunakan**:
 
 -   **HTML** | **CSS** | **JavaScript**
--   **React** | **Vue.js**
--   **Git** | **VS Code** | **NPM**
 
 **Link pembelajaran lebih lanjut:**
 
