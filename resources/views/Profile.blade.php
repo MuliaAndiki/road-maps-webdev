@@ -6,6 +6,7 @@
     <title>Profile</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    <link rel="icon" href="/asset/Faicon.png" type="image/x-icon">
 </head>
 <body class="bg-gray-300 overflow-hidden">
 
@@ -35,7 +36,7 @@
                     <p class="text-base font-medium text-gray-900">{{ $user->email }}</p>
                 </div>
                 <div class="mb-6">
-                    <p class="text-sm text-gray-600">Member Since</p>
+                    <p class="text-sm text-gray-600">Bergabung Sejak</p>
                     <p class="text-base font-medium text-gray-900">
                         @if ($user->created_at)
                             {{ $user->created_at->format('d/m/Y') }}
