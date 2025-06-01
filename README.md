@@ -1,5 +1,10 @@
 # 🚀 **Project Roadmap - Fullstack Development Journey** 🌍
 
+**Create By Kelompok**
+
+-   Mulia Andiki (2308107010013)
+-   Rahmat Hidayatullah (2308107010051)
+
 Selamat datang di **Project Roadmap**! 🌟
 
 Proyek ini bertujuan untuk memberikan peta jalan pengembangan yang jelas dan terstruktur bagi pengembang yang ingin menguasai **Fullstack Development**. Dari **Frontend** hingga **Backend**, kami akan membimbing Anda melalui perjalanan yang penuh tantangan dan peluang untuk belajar dan berkembang.
@@ -31,7 +36,7 @@ Di bagian ini, Anda akan menguasai dasar-dasar pengembangan **Frontend** mulai d
 
 #### **Teknologi yang digunakan**:
 
--   **HTML** | **CSS** | **JavaScript**
+-   **Laravel 11** | **PHP** | **MySQL** | **Tailwind CSS**
 
 **Link pembelajaran lebih lanjut:**
 
@@ -50,10 +55,6 @@ Di bagian **Backend**, kami akan membawa Anda melalui penguasaan **Node.js**, **
 -   Pelajari cara membuat dan menghubungkan **REST APIs**.
 -   Gunakan **Postman** untuk menguji API Anda dengan efisien.
 -   **Backend Security** itu penting! Pelajari cara melindungi data pengguna dan aplikasinya.
-
-#### **Teknologi yang digunakan**:
-
--   **Laravel** | **PHP** | **MYSQL** | **TaildwindCss**
 
 **Link pembelajaran lebih lanjut:**
 
@@ -110,8 +111,63 @@ Terus belajar dan berkembang, karena **pengembang hebat** adalah yang tidak pern
 
 ## **How To Start**
 
--   Git clone Repository
--   Php artisan serve - port 8000
--   npm run dev - Start Dev
+Ikuti langkah-langkah berikut untuk memulai proyek ini di lingkungan pengembangan lokal Anda:
+
+1.  **Clone Repository:**
+
+    ```bash
+    git clone <https://github.com/MuliaAndiki/road-maps-webdev.git>
+    cd road-maps-webdev
+    ```
+
+    Ganti `<https://github.com/MuliaAndiki/road-maps-webdev.git>` dengan URL repositori Git proyek ini.
+
+2.  **Konfigurasi Environment (.env):**
+    Salin file `.env.example` menjadi `.env`:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Kemudian, buka file `.env` dan konfigurasi detail koneksi database Anda (misalnya, nama database, username, password).
+
+3.  **Konfigurasi Nama Database:**
+    Pastikan nilai untuk `DB_DATABASE` di dalam file `.env` sesuai dengan nama database yang ingin Anda gunakan di MySQL atau database lain yang Anda konfigurasi.
+
+4.  **Jalankan Migrasi:**
+    Jalankan perintah migrasi Artisan untuk membuat tabel-tabel database yang diperlukan:
+
+    ```bash
+    php artisan migrate
+    ```
+
+5.  **Seed Database:**
+    Jalankan perintah seeder Artisan untuk mengisi database dengan data awal (jika ada):
+
+    ```bash
+    php artisan db:seed
+    ```
+
+6.  **Start Development Server:**
+
+    ```bash
+    php artisan serve --port=8000
+    ```
+
+    Ini akan menjalankan server pengembangan Laravel di `http://localhost:8000`.
+
+7.  **Install Frontend Dependencies :**
+    Arahkan ke direktori frontend proyek Anda dan instal dependencies npm:
+
+    ```bash
+    cd resources/js
+    npm install
+    ```
+
+8.  **Start Frontend Development Server :**
+    Jalankan perintah untuk memulai server pengembangan frontend:
+    ```bash
+    npm run dev
+    ```
 
 Happy Coding! ✨
