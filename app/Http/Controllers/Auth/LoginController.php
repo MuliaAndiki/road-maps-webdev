@@ -36,7 +36,7 @@ class LoginController extends Controller
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        return redirect('/home');
+        return redirect('/');
     }
 
     public function username(): string

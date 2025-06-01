@@ -42,7 +42,7 @@
           </div>
         </a>
         <a href="/backend">
-          <div data-aos="fade-up " 
+          <div data-aos="fade-up "
             class=" border-2 flex items-center justify-center h-[3rem] w-[13rem] rounded-md hover:border-blue-50 p-[1rem]">
             <h1 class="text-white">Backend</h1>
           </div>
