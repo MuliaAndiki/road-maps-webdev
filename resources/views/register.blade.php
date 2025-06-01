@@ -7,6 +7,8 @@
     <title>Register</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    <link rel="icon" href="/asset/Faicon.png" type="image/x-icon">
+    
 </head>
 
 <body>

@@ -7,6 +7,8 @@
     <title>Login Page</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    <link rel="icon" href="/asset/Faicon.png" type="image/x-icon">
+    <link rel="icon" href="/asset/Faicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -33,7 +35,7 @@
                     class="w-full p-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold hover:scale-[103%] duration-[0.3s]">Login</button>
 
                 <div class="flex justify-center mt-2">
-                    <a href="/register" class="text-purple-400 hover:scale-[103%] duration-[0.3s] hover:underline">Blum mempunyai Akun?</a>
+                    <a href="/register" class="text-purple-400 hover:scale-[103%] duration-[0.3s] hover:underline">Belum mempunyai Akun?</a>
                 </div>
 
                 @if ($errors->any())

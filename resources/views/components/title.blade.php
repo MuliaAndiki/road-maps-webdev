@@ -4,7 +4,7 @@
     <div class="flex-col" data-aos="fade-up">
         <div class="w-[40vw] border-1 rounded-md p-[1rem] ">
             <div class="flex justify-between">
-                <a href="/">
+                <a href="/home">
                     <div class="flex gap-x-1">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
                             <path fill-rule="evenodd"
