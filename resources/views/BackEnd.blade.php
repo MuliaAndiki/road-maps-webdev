@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <main class="container" class="overflow-x-hidden">
+  <main class="overflow-x-hidden">
     <div class="pt-4 pb-4 bg-slate-900">
       <!-- Header content can go here -->
     </div>
