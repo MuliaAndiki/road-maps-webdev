@@ -11,10 +11,11 @@ use App\Http\Controllers\Auth\LoginController;
 
 
 
-Route::get("/", [HomeController::class, 'index']);
+Route::get("/", [LoginController::class, 'showLoginForm']);
 Route::get("/frontend", [FrontendController::class, 'index']);
 Route::get("/backend", [BackendController::class, 'index']);
 Route::get("/fullstack", [FullstackController::class, 'index']);
+Route::get('/home', [HomeController::class, "index"]);
 
 
 // Rute Login
@@ -26,5 +27,5 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
 Route::post('/register', [RegisterController::class, 'register'])->name('register.store');
 
-//Rote Profile 
+//Rote Profile
 // Route::get('/profile', [])
