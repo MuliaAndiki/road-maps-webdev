@@ -22,13 +22,14 @@ class RegisterController extends Controller
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'username' => ['required', 'string', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'password' => ['required', 'string', 'min:4', 'confirmed'],
+            'email' => ['required', 'string', 'max:255',],
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'username' => $request->username,
-            'email' => $request->username . '@example.com', // Sesuaikan jika Anda meminta email
+            'email' => $request->email, 
             'password' => Hash::make($request->password),
         ]);
 
@@ -36,6 +37,6 @@ class RegisterController extends Controller
 
         Auth::login($user);
 
-        return redirect('/'); // Sesuaikan redirect setelah registrasi
+        return redirect('/login'); 
     }
-}
+}   

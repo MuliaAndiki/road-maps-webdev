@@ -43,9 +43,9 @@ class DatabaseSeeder extends Seeder
         // BackendButtonSeeder::class,
         // TipsPraktisBackendSeeder::class,
 
-        KeteranganBackendSeeder::class,
-        KeteranganFrontendSeeder::class,
-        KeteranganFullstackSeeder::class
+        // KeteranganBackendSeeder::class,
+        // KeteranganFrontendSeeder::class,
+        // KeteranganFullstackSeeder::class
        ]);
     }
 }
