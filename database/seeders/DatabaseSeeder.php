@@ -16,10 +16,12 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
        $this->call([
+        // hOME
         VideosTableSeeder::class,
         GuidesTableSeeder::class,
         FotosTableSeeder::class,
-
+        
+        // FullStack
         JudulFullstackSeeder::class,
         HrefFullstackSeeder::class,
         ShareFullstackSeeder::class,
@@ -27,6 +29,7 @@ class DatabaseSeeder extends Seeder
         FullstackContentSeeder::class,
         TipsPraktisFullstackSeeder::class,
 
+        // Frontend
         JudulFrontendSeeder::class,
         HrefFrontendSeeder::class,
         ShareFrontendSeeder::class,
@@ -35,6 +38,7 @@ class DatabaseSeeder extends Seeder
         FrontendContentSeeder::class,
         FrontendButtonSeeder::class,
 
+        // Backend
         JudulBackendSeeder::class,
         HrefBackendSeeder::class,
         ShareBackendSeeder::class,
@@ -43,6 +47,7 @@ class DatabaseSeeder extends Seeder
         BackendButtonSeeder::class,
         TipsPraktisBackendSeeder::class,
 
+        // Keterangan
         KeteranganBackendSeeder::class,
         KeteranganFrontendSeeder::class,
         KeteranganFullstackSeeder::class

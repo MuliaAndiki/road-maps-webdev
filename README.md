@@ -164,7 +164,15 @@ Ikuti langkah-langkah berikut untuk memulai proyek ini di lingkungan pengembanga
     npm install
     ```
 
-8.  **Start Frontend Development Server :**
+8.  **Install Frontend Dependencies :**
+    Arahkan ke direktori frontend proyek Anda dan instal dependencies npm:
+
+    ```bash
+    install Vendor
+    composer install
+    ```
+
+9.  **Start Frontend Development Server :**
     Jalankan perintah untuk memulai server pengembangan frontend:
     ```bash
     npm run dev
