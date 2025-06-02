@@ -164,11 +164,10 @@ Ikuti langkah-langkah berikut untuk memulai proyek ini di lingkungan pengembanga
     npm install
     ```
 
-8.  **Install Frontend Dependencies :**
-    Arahkan ke direktori frontend proyek Anda dan instal dependencies npm:
+8.  **Install Vendor Dependencies :**
+    Arahkan ke direktori frontend proyek Anda dan instal dependencies composer:
 
     ```bash
-    install Vendor
     composer install
     ```
 
